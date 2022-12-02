@@ -1,6 +1,6 @@
 if not game:IsLoaded() then game.Loaded:Wait() end
 local injected = true
-local oldrainbow = false
+local oldrainbow = true
 local customdir = (shared.VapePrivate and "vapeprivate/" or "vape/")
 local betterisfile = function(file)
 	local suc, res = pcall(function() return readfile(file) end)
